@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="FR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sam IT">
+  <meta name="author" content="samuel litzler">
+
+  <title>K10000 - Electronique</title>
+
+	
+  <link rel="icon" type="image.png" href="../../../img/favicon.png" />
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/animate.css" rel="stylesheet" />
+  <!-- Squad theme CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="color/default.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+        <a class="navbar-brand" href="index.html">
+          <h1proj>SAM IT :<br>Projets K10000</h1proj>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="../../../index.html#about">A propos</a></li>
+          <li><a href="../../../index.html#news">Nouveautés</a></li>
+          <li><a href="../../../index.html#contact">Contact</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Forum (HS) <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="../../../error.html">Arduino</a></li>
+              <li><a href="../../../error.html">Raspberry</a></li>
+              <li><a href="../../../error.html">Sécurité informatique</a></li>
+              <li><a href="../../../error.html">Développement Web</a></li>
+              <li><a href="../../../error.html">Développement Logiciel</a></li>
+              <li><a href="../../../error.html">Sujet libre</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Articles <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="../../error.html">Arduino</a></li>
+              <li><a href="../../error.html">Raspberry</a></li>
+              <li><a href="../../error.html">Sécurité informatique</a></li>
+              <li><a href="../../error.html">Développement Web</a></li>
+              <li><a href="../../error.html">Développement Logiciel</a></li>
+              <li><a href="../index.html">Projets</a></li>
+            </ul>
+          </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+<br><br><br><br><br>
+
+<!-- articles -->
+ <article>
+     
+     
+     
+        <div id="titre"><h1a><b><u>Electronique et fonctionnement du suivi</b></u></h1a></div>
+     
+     
+      <div id="txt2"><p10><u><b>Mode de suivi envisagés:</u></b></p10><br></div>
+       <br><br> <div id="txt2"><p10><u><b>1. Sytème ultrasons:</u></b></p10><br></div>
+       <div id="middle"><img src="img/ultra_louis.jpg" title="Schéma final" class="test" alt="image à mettre"/><div id="middle">
+           <div id="txt"><p10><u><b>Problèmes potentiels:</u></b></p10><br></div>
+           <div id="txt2"><p10><u><b>2. Triangulation Bluetooth:</u></b></p10><br></div>
+           
+                  <div id="middle"><img src="img/triangleblue.png" title="Schéma final" class="test" alt="image à mettre"/><div id="middle">
+    <div id="txt"><p10><u><b>Problèmes potentiels:</u></b></p10><br></div>
+                      
+                      
+                      <div id="txt2"><p10><u><b>3. Mode de suivi final:</u></b></p10><br></div>
+                      
+     <div id="txt"><p10>Le caddie doit respecter 2 conditions :<br>
+         
+         
+- Se trouver entre 40 et 60 cm de l'utilisateur lorsque celui-ci est en mouvement et 10 cm à l'arrêt afin que l'utilisateur puisse déposer ses courses.<br>
+- Suivre le trajet de l'utilisateur enregistré sur la centrale inertielle.<br><br>
+
+Détails :<br><br>
+
+- La distance étant assez minime, personne ne peut passer entre le caddie et l'utilisateur. Autrement dit, le capteur US détecte en temps réel la distance entre lui et l'utilisateur. Ainsi le caddie est sûr de suivre l'utilisateur. Cette valeur est ensuite transmise au code qui l'analyse pour savoir si le caddie doit accélérer ou non.<br><br>
+
+         - La centrale inertielle projette en temps réel sur un plan en 2 dimensions les positions de l'utilisateur et donc par conséquent le tracé à suivre pour le caddie. La centrale inertielle possédant une précision au centième de millimètre près, le tracé suivi par le caddie est assez précis pour que le caddie ne rentre pas dans les rayons lorsque l'utilisateur les frôle.</p10></div>
+
+         <div>
+<div id="txt2"><p10><u><b>Schéma de la distance de sécurité</u></b></p10><br></div>
+             <div id="middle"><img src="img/distance_s%C3%A9cu.jpg" title="Schéma de la distance de sécurité" class="dia_pieuvre" alt="K10000"/></div>
+         </div>
+
+    <br><br>
+
+
+<div id="txt"><p10><b> Problèmes potentiels :</b><br><br>
+
+- Le caddie peut potentiellement rentrer dans quelque chose sur les côtés. <br> Les capteurs de contact peuvent remédier à ce problème, cependant, ils ne sont utiles quand ultime recours. <br> 2 capteurs US pourraient être placés pour établir les distances qui sépareraient le caddie d'un obstacle. <br> Cette solution est en effet plus sécuritaire mais engendre beaucoup trop de contraintes et de nouvelles problématiques à résoudre notamment au niveau du programme. <br><br>- Si quelqu'un passe entre le caddie et l'utilisateur le caddie va prendre l'homme qui passe pour l'utilisateur et va donc transmettre au caddie une distance fausse. Ce problème se présente notamment lors du démarrage car le temps que le caddie atteigne sa vitesse de croisière, l'écart entre lui et l'utilisateur se creuse et donc que quelqu'un passe entre aussi. <br><br>
+
+- Si l'utilisateur rentre dans un rayon, le caddie aussi. <br><br>
+
+- Si l'utilisateur tourne à angle droit dans un rayon, le capteur US ne détecte plus l'utilisateur.
+<br><br>
+- Si l'utilisateur se retourne à 360 °, cela peut entraîner une perte de signal pour la capteur US.
+<br><br>
+
+Rajouter les autres systèmes envisagés puis écartés.
+
+Rajouter les différents devis (avant et après)
+</p10></div>
+
+       <div id="txt2"><p10><u><b>Cablages électronique</u></b></p10><br></div>
+       <div id="middle"><img src="img/sh%C3%A9ma_entier.jpg" title="Schéma final" class="contraintes" alt="image à mettre"/><div id="middle">
+
+<div id="middle">
+     <iframe  width="425" height="344" src="https://www.youtube.com/embed/bhA6_HW9fRc" frameborder="0" allowfullscreen></iframe>
+     <iframe  width="425" height="344" src="https://www.youtube.com/embed/gdHqc2OfdLU" frameborder="0" allowfullscreen></iframe>
+     <iframe  width="425" height="344" src="https://www.youtube.com/embed/uIuq1ia5HXk" frameborder="0" allowfullscreen></iframe>
+</div>
+
+     </video><br><br><br>
+           
+    
+
+           
+           
+</article>
+<br><br>
+    <div id="url">
+        
+        <div id="txt2"><p10><a href="code.html"> Partie programmation</a></p10></div>
+
+
+</div>
+
+
+
+<br><br><br><br><br>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <p>&copy;Sam IT. Pas encore de droit mdr</p>
+          <div class="credits">
+            <a href="https:">Site gouverné par</a> Samuel LITZLER
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core JavaScript Files -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/wow.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>

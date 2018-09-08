@@ -1,0 +1,48 @@
+
+a,.tp-caption a.btn:hover {
+	color: limegreen;
+}
+.top-nav-collapse {
+	background: limegreen;
+}
+
+@media (max-width: 768px) {
+  .navbar, .navbar-nav {
+		background: forestgreen !important;
+	}
+
+	.navbar-nav a {
+		color: #fff !important;
+	}
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+	color: forestgreen;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: forestgreen;
+}
+
+.widget-avatar .avatar:hover {
+    border: 5px solid forestgreen;
+}
+
+.bg-skin {
+	background: forestgreen;
+}
+
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+	border-color: forestgreen;
+}
+
+footer {
+    background-color: forestgreen;
+}
+
+.btn-skin {
+  color: #fff;
+  background-color: forestgreen;
+  border-color: forestgreen;
+}

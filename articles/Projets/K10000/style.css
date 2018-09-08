@@ -1,0 +1,43 @@
+#conteneur{display:grid;text-align: center;}
+#txt{text-align: justify;background-color: none;width: 97%;height: 100%;margin: 1%;padding: 1.5%;}
+#txt1{text-align: justify;background-color: none;width: 85%;height: 100%;margin: 7%;padding: 1.5%;border-width: thick;border: 2px gray double;background-color: #bfbfbf;}
+#txt2{text-align: center;background-color: none;width: 97%;height: 100%;margin: 1%;padding: 1.5%;}
+#titre{text-align: center;letter-spacing: 1px;}
+#middle{text-align: center;}
+
+h1proj{
+    margin: 0 0 30px;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+h1a{color: black;font-size: 42px;}
+
+p10 {
+    margin: 0 0 20px;
+    font-size: 20px;
+    line-height: 1.6em;
+    color:black;
+}
+
+body{background-color: lightgrey;}
+
+.cadi{height:30%;width: 30%;border-radius: 50px;}
+.cadi_explo{height:100%;width: 100%;border-radius: 50px;}
+.dia_pieuvre{height: 100%;width: auto;padding: 1%;}
+.fonctions{height: 100%;width: 95%;padding: 1%;}
+.contraintes{height: 100%;width: 95%;padding: 1%;}
+.test{height: 60%;width: 60%;padding: 1%;}
+.test2{height: 100%;width: 100%;padding: 1%;}
+.test3{height: 80%;width: 80%;padding: 1%;}
+
+a:hover{text-decoration: none;color: grey;}
+a{color: black}
+
+p11 {font-size: 24px;line-height: 1.6em;color:black;}
+
+#url{background-color: rgba(255, 255, 255,0.3); width: 30%;margin: auto;}
+
